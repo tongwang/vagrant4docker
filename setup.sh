@@ -11,4 +11,4 @@ usermod -a -G docker vagrant
 
 yum -y install docker
 service docker start
-systemctl enable docker.service
+systemctl enable docker
